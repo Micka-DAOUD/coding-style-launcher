@@ -28,7 +28,7 @@ You can copy these commands (**replace `~/.bashrc` by the config file you use**)
 *Note: if you're reinstalling, make sure you've deleted the old function before installing it again*
 ```
 git clone https://github.com/Micka-DAOUD/coding-style-launcher.git
-cat coding-style-launcher/cs_function >> ~/.bashrc
+cat coding-style-launcher/cs_function.sh >> ~/.bashrc
 rm -rf coding-style-launcher/
 ```
 
