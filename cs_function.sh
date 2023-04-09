@@ -1,3 +1,4 @@
+# Check for coding style errors
 cs ()
 {
   NC='\033[0m' # No Color
