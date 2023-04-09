@@ -4,13 +4,13 @@ a little shell script to launch the epitech coding style checker
 ## How to use
 * As a program:
 
-Simply download the `cs.sh` file and move it tou your desired binary location
+Simply download the `cs.sh` file and move it to your desired binary location
 
 You can also copy these commands if you're lazy:
 
 ```
 git clone https://github.com/Micka-DAOUD/coding-style-launcher.git
-chmod +x 
+chmod +x coding-style-launcher/cs.sh 
 sudo mv coding-style-launcher/cs.sh /usr/local/bin/
 rm -rf coding-style-launcher/
 ```

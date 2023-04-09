@@ -58,11 +58,11 @@ fi
 if command -v coding-style &> /dev/null || command -v abricot &> /dev/null; then
   if command -v coding-style &> /dev/null && ! command -v abricot &> /dev/null; then
     exec_coding_style
-    return 0
+    exit 0
   fi
   if ! command -v coding-style &> /dev/null && command -v abricot &> /dev/null; then
     exec_abricot
-    return 0
+    exit 0
   fi
   echo -e "Found both ${YLW}abricot${NC} and ${CYN}coding-style${NC} scripts"
   echo -n "Execute coding-style instead of abricot? [Y/n] (default: yes) "
@@ -76,6 +76,6 @@ else
   echo -e "${RED}No coding-style or abricot script found.${NC}"
   echo -e "Please install ${UNDRLN}abricot${NC} or ${UNDRLN}coding-style${NC} scripts."
   echo "Exiting..."
-  return 1
+  exit 1
 fi
 
