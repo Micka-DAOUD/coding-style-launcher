@@ -2,7 +2,7 @@
 A shell script to check coding style with ease
 
 ### Dependencies
-*Note: only one of the dependencies is required for the script to work)
+*Note: only one of the dependencies is required for the script to work)*
 * [Abricot-Norminette](https://github.com/Just1truc/Abricot-Norminette)
 * [coding-style-checker](https://github.com/Epitech/coding-style-checker)
 
