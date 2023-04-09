@@ -1,8 +1,8 @@
 # coding-style-launcher
 a little shell script to launch the epitech coding style checker
 
-###Dependencies
-Abricot-norminette *or* coding-style-checker (Having both is not mandatory)
+### Dependencies
+[Abricot-Norminette](https://github.com/Just1truc/Abricot-Norminette) *or* [coding-style-checker](https://github.com/Epitech/coding-style-checker) (Having both is not mandatory)
 
 ## Install / Reinstall
 * As a script:
@@ -47,6 +47,6 @@ You'll have to manually delete the function in your .rc file.
 
 Firstly, make sure to be located in one of your Epitech repositories (Otherwise, the script will be useless).
 
-After launching the script, it will search if you have Epitech's official coding-style-checker or Abricot installed.
+After launching the script, it will search if you have Epitech's official [coding-style-checker](https://github.com/Epitech/coding-style-checker) or [abricot](https://github.com/Just1truc/Abricot-Norminette) installed.
 
 You will then have to follow the instructions of the script according to which checker you want to launch.
