@@ -29,7 +29,7 @@ exec_coding_style()
 {
   echo -e "Checking ${CYN}coding style${NC}..."
   coding-style . . 2>&1 | tail -n 1 > .cst
-  if cat .cst | grep -q " 0 coding style error(s)"; then
+  if cat .cst | grep -q "0 major, 0 minor, 0 info"; then
     echo -e "${GRN}Coding style OK${NC}"
   else
     echo -ne "${RED}"; cat .cst; echo -ne "${NC}"
