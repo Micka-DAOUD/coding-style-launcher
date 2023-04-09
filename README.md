@@ -18,6 +18,12 @@ rm -rf coding-style-launcher/
 * As a shell function:
 
 In case you don't want to directly add the file as a binary, you can create a shell function directly in your .bashrc file.
+You can copy these commands (**replace `~/.bashrc` by the config file you use**):
+```
+git clone https://github.com/Micka-DAOUD/coding-style-launcher.git
+cat coding-style-launcher/cs_function >> ~/.bashrc
+rm -rf coding-style-launcher/
+```
 
 *note: this should also work in a .zshrc file or watever other shell you can use, however it hasn't been tested.*
 
@@ -25,6 +31,7 @@ In case you don't want to directly add the file as a binary, you can create a sh
 * As a script
 
 Just remove the script by using this command (*of course, this won't work if you changed the installation name or path of the script*)
+
 ```sudo rm /usr/local/bin/cs.sh```
 
 * As a shell function
