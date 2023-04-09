@@ -1,8 +1,10 @@
 # coding-style-launcher
-a little shell script to launch the epitech coding style checker
+A shell script to check coding style with ease
 
 ### Dependencies
-[Abricot-Norminette](https://github.com/Just1truc/Abricot-Norminette) *or* [coding-style-checker](https://github.com/Epitech/coding-style-checker) (Having both is not mandatory)
+*Note: only one of the dependencies is required for the script to work)
+* [Abricot-Norminette](https://github.com/Just1truc/Abricot-Norminette)
+* [coding-style-checker](https://github.com/Epitech/coding-style-checker)
 
 ## Install / Reinstall
 * As a script:
