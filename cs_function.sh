@@ -20,7 +20,7 @@ cs ()
     echo -n "check for all errors? [Y/n] (default: no) "
     read input2
     if [ "$input2" = 'Y' ] || [ "$input2" = 'y' ]; then
-      echo -e "Checking ${YLW}abricot --all${NC}..."
+      echo -e "Checking ${YLW}abricot --all --nofunc${NC}..."
       abricot --all --ignore
     else
       echo -e "Checking ${YLW}abricot${NC}..."
