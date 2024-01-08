@@ -11,19 +11,19 @@ BLD='\033[1m'    # Bold
 UNDRLN='\033[4m' # Underline
 ITLC='\033[3m'   # Italic
 
-exec_abricot()
-{
-  echo -e "Executing ${YLW}abricot${NC}"
-  echo -n "check for all errors? [Y/n] (default: no) "
-  read input2
-  if [ "$input2" = 'Y' ] || [ "$input2" = 'y' ]; then
-    echo -e "Checking ${YLW}abricot --all --nofunc${NC}..."
-    abricot --all --ignore
-  else
-    echo -e "Checking ${YLW}abricot${NC}..."
-    abricot --ignore
-  fi
-}
+  exec_abricot()
+  {
+    echo -e "Executing ${YLW}abricot${NC}"
+    echo -n "check for all errors? [Y/n] (default: yes) "
+    read input2
+    if [ "$input2" = 'N' ] || [ "$input2" = 'n' ]; then
+      echo -e "Checking ${YLW}abricot${NC}..."
+      abricot --ignore
+    else
+      echo -e "Checking ${YLW}abricot --all --nofunc${NC}..."
+      abricot --all --ignore --nofunc
+    fi
+  }
 
 exec_coding_style()
 {
